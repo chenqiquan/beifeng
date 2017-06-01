@@ -1,0 +1,307 @@
+/* 导航 */
+body{
+	font-family: "microsoft yahei",sans-serif;
+}
+
+.bawei{
+	background: #40d2b1;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px; 
+    margin-right: 20px;
+}	
+	
+.events-announcement {
+    position: fixed;
+    /*top: 0;
+    left: 0;
+    right: 0;*/
+    z-index: 100;
+    width: 100%; 
+    color: #000000;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f60;
+}
+.events-announcement-in {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#scroll_begin, #scroll_end {
+    display: inline;
+}
+
+
+
+/*导航*/	 	
+
+	 
+.top{
+	padding-top: 40px;
+}	 
+.nav .tel::before {
+    content: url(../img/B_03.gif);
+    padding-right: 25px;
+    display: block;
+    float: left;
+    width: .19rem;
+    height: .21rem;
+    transform: translateY(.2rem);
+    margin-right: .1rem;
+    padding-bottom: 10px;
+}
+	      
+.nav .tel {  
+    line-height: 60px;
+    font-size: 14px;
+    color: #fff;
+    white-space: nowrap;
+}		 
+		 
+.txt{
+	width: 144px;
+	height: 24px;
+	background: black;
+	margin-top: 26px;
+	border: 0;
+	border-bottom: 1px solid white;
+} 
+		
+.left li{
+	margin-left: 48px;
+} 
+		 
+.link-direction{
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 40px;
+}  
+
+.toggleTab .danger-ang .tab-ul{
+	padding-left: 0.68rem;
+	padding-bottom: 0.15rem;
+	
+}
+
+.tab-li{
+	padding-left: 45px;
+	margin-top: 40px;  
+	
+}
+				
+.tab-ul .active-outer{
+				
+	background: #188eee;
+	font-size: 14px;	
+	padding: 10px 15px; 
+	color: #fff;
+}
+
+.content-outer{
+	background: #f2f2f2;
+}
+
+.top-outer{
+	margin-top: 145px;
+}
+
+.t{
+	margin-top: 45px;
+	background: #fff;
+	text-align: center;
+	height: 275px;
+}
+
+.size{
+	margin-top: 35px;
+}
+.size-outer{
+	color: #999999;
+	font-size: 10px;
+}
+
+
+
+/*分页*/
+.page {
+    clear: both;
+    padding-bottom: 60px;
+    text-align: center;
+    line-height: 33px;
+    margin-top: 70px;
+}
+
+.page-link:hover, .page-link.cur {
+    color: #fff;
+    background: #188eee;
+    border-radius: 50%;
+    padding: 10px 12px;
+    
+}	
+.page a {
+    color: #666;
+    
+}	
+
+.page-link{
+	margin-left: 30px;
+}
+.page-prev{
+	padding: 0 10px;
+}
+.page-last{
+	padding: 10px;
+}
+
+/*左边栏*/
+.Nicole-ad-box {
+    width: 68px;
+    height: 370px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: fixed;
+    top: 265px;
+    left: 3px;
+    padding: 0 5px;
+    font-size: 12px;
+    text-align: center;
+    z-index: 99999;
+}
+
+.Nicole-ad-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Nicole-ad-ul .Nicole-ad-li1 {
+    height: 50px;
+}
+.Nicole-ad-ul .Nicole-ad-li {
+    list-style: none;
+    /*height: 84px;*/
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+}
+.Nicole-ad-ul .Nicole-ad-icon2 {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../../../img/new1611/Nicole-ad-icon.png") no-repeat -25px -24px;
+}
+
+.Nicole-ad-ul .Nicole-ad-text {
+    color: #666;
+    margin: 0;
+    padding-top: 7px;
+}
+.Nicole-ad-ul .Nicole-ad-li {
+    list-style: none;
+    height: 84px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+
+
+
+
+/*底部*/
+
+.footer{
+	background: #fff;
+}
+
+
+.footer-outer{
+	margin-top: 35px;
+	border-bottom: 1px #ccc solid;
+	padding: 30px 0;
+}
+
+.footer-outer a{
+	color: #999999;
+	padding: 0 20px;
+	
+	
+}
+
+
+.buttom{
+	margin-top: 100px;
+}
+
+
+.buttom .color-outer li a{
+	color: #999999;
+}
+.buttom h6{
+	font-weight: bold;
+}
+
+.buttom-out{
+	margin-top: 40px;
+	border-left: 1px #ccc solid;
+	padding: 20px 30px;
+}
+.buttom-out  h4{
+	font-size: 12px;
+}
+.buttom-out p{
+	font-size: 12px;
+}
+.buttom-out p a{
+	color: #000000;
+}
+.butt{
+	margin-top: 130px;
+}
+.butt p{
+	margin-left: 20px;
+	margin-top: 22px;
+	font-size: 12px;
+}
+
+.buttom-outer{
+	margin-top: 65px;
+	margin-left: 150px;
+}
+
+.buttom-outer p{
+	margin-left: 15px;
+	color: #999999;
+}
+
+.buttom-outer a img{
+	margin-left: 10px;
+}
+
+
+
+.foot{
+	background: #fafafa;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.foot p{
+	color: #999999;
+}
+
+
